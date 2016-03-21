@@ -1,0 +1,58 @@
+body{
+	margin:0;
+	background: url(../imgs/packed-4.png);
+}
+#canvas{
+	display: block;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-300px;
+	margin-top:-300px;
+	box-shadow:0 0 1px black;
+	background: url(../imgs/bg.jpg);
+}
+.start{
+	width: 100px;
+	height: 40px;
+	background:rgba(0,0,0,0.3);
+	line-height: 40px;
+	font-family: '微软雅黑';
+	text-align: center;
+    position: absolute;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+    left:20%;
+    top:40%;
+    cursor: pointer;
+    overflow: hidden;
+    background: url(../imgs/bg.jpg);
+}
+.huiqi{
+	width: 100px;
+	height: 40px;
+	background:rgba(0,0,0,0.3);
+	line-height: 40px;
+	font-family: '微软雅黑';
+	text-align: center;
+    position: absolute;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+    left:20%;
+    top:50%;
+    cursor: pointer;
+    overflow: hidden;
+    background: url(../imgs/bg.jpg);
+}
+@media(max-width: 690px){
+	.start{
+		position: absolute;
+		top:10%;
+		left:35%;
+		line-height:auto; 
+		width: 30%;
+		margin:0 auto;
+        text-align: center;
+	}
+	.huiqi{
+		display: none;
+	}
+}
